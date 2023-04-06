@@ -1,0 +1,98 @@
+
+#for-sale {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    color: darkgreen;
+    justify-content: center;
+    letter-spacing: 45px;
+    font-size: x-large;
+}
+#truck-title {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+.fit-picture {
+    width: 100%;
+    display: block;
+}
+
+.fit-picture img {
+    max-height: 15%;
+    max-width: 60%;
+    display: block;
+    filter: drop-shadow(5px 5px 15px #000000);
+    outline: thin white;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+#stats-1 {
+    max-width: 1445px;
+    display: block;
+    margin: 20px auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+    /*max-width: 100%;*/
+    border-top: thin gray;
+    background-color: rgb(255, 250, 255);
+    box-shadow: rgb(0 0 0 / 5%) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 4px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: large;
+}
+#stats-kms {
+    display: inline-block;
+    width: 25%;
+    float:left;
+    text-align: center;
+    /*border-right: solid thin gray;*/
+    justify-content: center;
+    /*padding-left: 25%;*/
+}
+#stats-engine{
+    display: inline-block;
+    width: 36%;
+    float:left;
+    text-align: center;
+    border-right: solid thin gray;
+    border-left: solid thin gray;
+    justify-content: center;
+    /*padding-left: 5%;
+    padding-right: 12%;*/
+}
+#stats-drive {
+    display: inline-block;
+    width:25%;
+    float:left;
+    text-align:center;
+    /*border-left: solid thin gray;*/
+    flex-direction: column;
+    justify-content: center;
+}
+#body {
+    font-family: 'Arvo', serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+}
+
+#upgrades-1 {
+    display: inline-block;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-top: 2%;
+    font-family: 'Arvo', serif;
+    font-weight: 50;
+}
+#upgrades-2 {
+    display: inline-block;
+    flex-direction: column;
+    padding-left: 8%;
+    font-family: 'Playfair Display', serif;
+}
