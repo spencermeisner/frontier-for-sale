@@ -96,3 +96,13 @@
     padding-left: 8%;
     font-family: 'Playfair Display', serif;
 }
+#engine img {
+    padding-top: 5%;
+    max-height: 15%;
+    max-width: 60%;
+    display: block;
+    filter: drop-shadow(5px 5px 15px #000000);
+    outline: thin white;
+    justify-content: center;
+    margin: 0px auto;
+}
